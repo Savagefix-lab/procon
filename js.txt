@@ -1,0 +1,27 @@
+methods in js
+map
+reduce
+filter
+find
+search
+foreach
+
+regular expressions
+used to validaten input fields
+
+->symbols
+-
+W-not alphanumeric
+S-no space
+s-space
+a-z
+9
+1
+() capturing
+[] grouping
+{} repititions
+=
+? 0 or one
+^ lookahead (for a character )
+* o or more
++ one or more

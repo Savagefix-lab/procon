@@ -1,0 +1,57 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  color: blue;
+  justify-content: space-between;
+  border: 1px black solid;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.div-1{
+  width: 50%;
+  
+ flex-direction: column;
+  border: 1px  black solid;
+  background-color:  peru;
+  padding: 5px;
+}
+
+.div-2{
+  display: flex;
+  width: 50%;
+  background-color: lawngreen;
+  flex-direction: row;
+  border: 1px black solid;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+/* .item{
+  display: flex;
+  border: 2px black solid;
+  flex-direction: row;
+} */
+.club{
+    border: 1px black thin;
+    flex-direction: row;
+}
+.list{
+  border: 1px black yhin;
+  flex-direction: row;
+  display: flex;
+}
+body{
+  background-color: silver ;
+}
+/* .logo{
+  border-radius: 2px black solid;
+} */
+ .keg{
+   display: flex;
+  border: 1px black solid;
+  background-color: purple;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+ }

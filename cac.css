@@ -1,0 +1,89 @@
+body {
+    /* background-color: burlywood; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 85vh;
+    width: 330px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    background-color: rgb(36, 34, 34);
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 4px -4px 10px black;
+}
+
+.night{
+    color: orangered;
+}
+
+.screen {
+    color: white;
+    padding-left: 88%;
+    background-color: black;
+    padding-bottom: 27px;
+    border-radius: 20px;
+}
+
+.switch {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 10px;
+}
+
+.negative {
+    background-color: black;
+    color: orangered;
+    border-radius: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.negative:hover{
+    background-color: red;
+}
+
+.positive:hover{
+    background-color: green;
+}
+
+.positive {
+    background-color: black;
+    color: orangered;
+    margin-left: 50px;
+    border-radius: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 20px;
+    background-color: rgb(36, 34, 34);
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 310px;
+}
+
+.solve {
+    border-radius: 600px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+    background-color: black;
+    color: orange;
+    /* margin-top: 10px; */
+    top: 80%;
+}
+
+.solve:hover {
+    background-color: green;
+}

@@ -1,0 +1,59 @@
+{
+  "validData": {
+    "fullName": "Daniel Timi",
+    "username": "danny_savage11",
+    "email": "danny.test@example.com",
+    "password": "DannyTest@123",
+    "confirmPassword": "DannyTest@123",
+    "phone": "08012345678",
+    "age": 17,
+    "gender": "Male",
+    "dateOfBirth": "2009-05-15",
+    "website": "https://example.com",
+    "country": "Nigeria",
+    "address": "12 Example Street, Lagos",
+    "message": "This is a test message."
+  },
+  "invalidData": [
+    {
+      "field": "fullName",
+      "value": "D",
+      "expectedError": "Name too short"
+    },
+    {
+      "field": "email",
+      "value": "danny123",
+      "expectedError": "Invalid email"
+    },
+    {
+      "field": "password",
+      "value": "123",
+      "expectedError": "Password too short"
+    },
+    {
+      "field": "confirmPassword",
+      "value": "Different@123",
+      "expectedError": "Passwords do not match"
+    },
+    {
+      "field": "phone",
+      "value": "abc123",
+      "expectedError": "Invalid phone number"
+    },
+    {
+      "field": "age",
+      "value": -5,
+      "expectedError": "Age must be positive"
+    },
+    {
+      "field": "website",
+      "value": "not-a-url",
+      "expectedError": "Invalid URL"
+    },
+    {
+      "field": "requiredField",
+      "value": "",
+      "expectedError": "Field is required"
+    }
+  ]
+}

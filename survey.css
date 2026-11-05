@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background:
+        radial-gradient(circle at top left, #18234d, transparent 40%),
+        radial-gradient(circle at bottom right, #301044, transparent 40%),
+        #080b14;
+}
+
+/* Main heading */
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(28px, 5vw, 45px);
+    text-align: center;
+    color: #00ffae;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffae, 0 0 25px #00ffae55;
+}
+
+/* Subtitle */
+
+h2 {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #b8c5e6;
+}
+
+/* Survey form */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 35px;
+    background: rgba(17, 23, 42, 0.92);
+    border: 1px solid #263d58;
+    border-top: 3px solid #00ffae;
+    border-radius: 16px;
+    box-shadow:
+        0 0 20px #00ffae12,
+        0 15px 45px #00000066;
+}
+
+/* Questions */
+
+p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Yes and No labels */
+
+label {
+    color: #dce5ff;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/* Radio buttons and checkboxes */
+
+input[type="radio"],
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #697b9c;
+    background: #0b1020;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: 0.2s ease;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+input[type="checkbox"] {
+    border-radius: 5px;
+    accent-color: #00ffae;
+    float: right;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background: #00ffae;
+    border-color: #00ffae;
+    box-shadow: 0 0 12px #00ffae88;
+}
+
+/* Game list */
+
+ul {
+    list-style: none;
+    margin-top: 28px;
+}
+
+li {
+    background: #10182b;
+    border: 1px solid #263653;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    padding: 16px 18px;
+    color: #e7edff;
+    font-size: 15px;
+    transition: all 0.25s ease;
+}
+
+/* Hover animation on game cards */
+
+li:hover {
+    background: #17243a;
+    border-color: #00ffae;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #00ffae20;
+}
+
+/* Submit button */
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #00ffae, #00d9ff);
+    color: #07111a;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px #00ffae88;
+    background: linear-gradient(90deg, #00d9ff, #00ffae);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* Keyboard accessibility */
+
+input:focus-visible {
+    outline: 2px solid #bd6bff;
+    outline-offset: 4px;
+}
+
+/* Mobile responsive design */
+
+@media (max-width: 480px) {
+    body {
+        padding: 25px 14px;
+    }
+
+    form {
+        padding: 22px 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    li {
+        padding: 14px;
+    }
+}
+

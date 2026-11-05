@@ -1,0 +1,37 @@
+body{
+    background-color: silver;
+}
+.second{
+    display: flex;
+}
+.third{
+    display: flex;
+    text-align: center;
+   }
+
+.icon{
+     height: 20px;
+}
+.post{
+    height: 200px;
+    margin-left: 5%;
+    width: 10%;
+} 
+.meat{
+    background-color: grey;
+    padding-bottom: 20%;
+}
+.first{
+    flex-direction: column;
+    align-items: end;
+    padding-top: 50px;
+    color: gold;
+}
+.knife{
+    background-image: url('/laptop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <h1 class="res">Sign Up</h1>
+    <form id="regi">
+        <p id="mirage" class="rage"></p>
+        <div>
+            <label for="name">First name</label>
+            <input type="text" id="name" placeholder="First name" name="firstname" />
+        </div>
+
+        <div>
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" placeholder="lastname" name="lastname" />
+        </div>
+
+        <div>
+            <label for="phonenumber">Phone number</label>
+            <input type="tel" id="phonenumber" maxlength="13" placeholder="phone number" name="phonenumber" />
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="emailaddress" name="email" />
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" name="password" />
+            <small id="pass_strength"></small>
+            <ul class="lis" id="conditions">
+                <li id="length">Password must be at least 8 characters long</li>
+                 <li id="low-case">Password must contain at least one lowercase letter</li>
+                <li id="up-case">Password must contain atleast one uppercase letter</li>
+                <li id="num">Password must contain atleast one number</li>
+            </ul>
+        </div>
+
+        <div>
+            <label for="confirmpassword">Confirm password</label>
+            <input type="password" id="confirmpassword" placeholder="confirm password" name="confirmpassword" />
+            <p id="passerror"></p>
+            <p id="passsuccess"></p>
+        </div>
+
+
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+    </form>
+
+    </section>
+    <script src="form.js" id="registration-form" type="module">
+
+    </script>
+
+</body>
+
+</html>
+
+<hr />

@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Welcome Back</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <main class="login-container">
+        <div class="login-card">
+
+            <div class="logo">
+                <span>✦</span>
+            </div>
+
+            <h1>Welcome back</h1>
+            <p class="subtitle">Please enter your details to sign in.</p>
+
+            <form action="#" method="post" id="nostalgia">
+
+                <div class="input-group">
+                    <label for="email">Email address</label>
+                     <p id="illusion" class="rage"></p>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+                    
+                </div>
+
+                <div class="input-group">
+                    <div class="password-label">
+                        <label for="password">Password</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                        required
+                    >
+                </div>
+
+                <div class="form-options">
+                    <label class="remember">
+                        <input type="checkbox" name="remember">
+                        <span>Remember me</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="login-btn">
+                    Continue <span>→</span>
+                </button>
+
+            </form>
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+            <button type="button" class="google-btn">
+                <span class="google-icon">G</span>
+                Continue with Google
+            </button>
+
+            <p class="signup-text">
+                Don't have an account?
+                <a href="#registration.html">Sign up for free</a>
+            </p>
+
+        </div>
+
+        <p class="footer-text">
+            © 2026 Daniel. All rights reserved.
+        </p>
+    </main>
+    <script src="form.js" type="module"></script>
+
+</body>
+</html>

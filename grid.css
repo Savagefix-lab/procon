@@ -1,0 +1,54 @@
+.main{
+    display: grid;
+    grid-template-areas: "header header header" "left center right" "footer footer footer";
+}
+.header{
+    grid-area: "header";
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.hat{
+    text-align: center;
+}
+
+.left{
+    grid-area: left;
+    overflow-y: scroll;
+    height: 200px;
+}
+.center{
+    grid-area: center;
+    /* background-color:  */
+    overflow-y: scroll;
+}
+.right{
+    grid-area: right;
+    /* background-color: ; */
+    overflow-y: scroll;
+}
+
+.shakira{
+    height: 200px;
+    width: 300px;
+}
+
+.piece{
+    height: 80%;
+}
+
+.smoke{
+    height: 150px;
+}
+.goat{
+    display: flex;
+    flex-direction: row;
+}
+
+.hook{
+    text-align: center;
+}
+.play{
+    height: 100%;
+    width: 80%;
+}
